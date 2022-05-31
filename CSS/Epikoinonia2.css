@@ -1,0 +1,106 @@
+/*         Epikoinonia style rules        */
+
+.super-contact-body {
+    background-color: rgb(245, 217, 217); 
+    
+}
+
+.contact-body {
+    margin-left: 5%;
+    display: inline;
+    position: absolute;
+}
+
+.epik-bakgr {
+    height: 70%;
+    width: 39%;
+    position: absolute;
+    display: inline;
+    margin-left: 38%;
+    box-shadow: 2px 2px 15px 2px #455b8b;
+}
+
+.contact-txt {
+    font-size: 20px;
+}
+
+#email:hover {
+    color: #83a0e0;
+}
+
+.bottom-bar {
+    background-color: rgb(248, 144, 9);
+    overflow: visible;
+    position: absolute;
+    top: 35.6rem;
+    width: 99%;
+    height: 165px;
+}  
+      /* Style the links inside the navigation bar */
+
+.bottom-bar .fa {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #5181e7;
+    color: white;
+    margin: 10px;
+  }
+
+  .fa-facebook {
+    position: relative;
+}
+
+  .fa-twitter {
+      position: relative;
+  }
+
+  .footer{
+      margin-top: 10%;
+  }
+  .touristikoi {
+      font-size: 20px;
+      font-weight: 800;
+      left: 15rem;
+      position: absolute;
+      display: block;
+  }
+
+.syndesmoi {
+    font-size: 20px;
+    font-weight: 800;
+    left: 45rem;
+    position: absolute;
+    display: block;
+}
+
+.footer-link {
+    left: 47rem;
+    position: absolute;
+    display: block;
+    top: 5rem;
+}
+
+.designer {
+    font-size: 14px;
+    right: 22rem;
+    position: absolute;
+    display: block;
+    top: 8rem;
+}
+
+  .epikoinonia-footer {
+      font-size: x-large;
+      font-weight: 400;
+      color: #ffffff;
+  }
+  
+  .bottom-bar .fa:hover {
+    opacity: 0.7;
+  }

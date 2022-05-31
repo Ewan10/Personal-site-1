@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Σχετικά με</title>
+    <link rel="stylesheet" href="../CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/ToErgoMas.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script>
+        /*  const link = document.querySelectorAll('.link');
+  
+          function markMenuLink() {
+              let active = documentgetElementsByClassName("link");
+              for (let i = 0; i < link.length; i++) {
+                  link[i].addEventListener('click', function () {
+                      active[i].className = active[i].className.replace(" clicked", "");
+                      this.className += " clicked";
+                  })
+              }
+          }
+          markMenuLink(); */
+
+
+        function f1() {
+            let link = document.querySelectorAll('.link');
+            for (let i = 0; i < link.length; i++) {
+                console.log(link[i].className);
+            }
+            console.log('length is:' + link.length);
+
+        }
+
+        f1();
+    </script>
+</head>
+
+<header class="header">
+    <nav class="menu">
+        <ul class="menu-list">
+            <li class="item">
+                <a href="index.html" class="clicked link">ΑΡΧΙΚΗ</a>
+            </li>
+            <li>
+                <a href="ToErgoMas.html" class="link" onclick="f1()">Το ΕΡΓΟ ΜΑΣ</a>
+            </li>
+            <li>
+                <a href="Fotothiki.html" class="link" onclick="f1()">Φωτοθήκη</a>
+            </li>
+            <li>
+                <a href="Epikoinonia.html" class="link" onclick="f1()">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<img class="digger digger-1" src="../Eikones/digging-icon.png" alt="">
+<img class="digger digger-2" src="../Eikones/digging-icon.png" alt="">
+<img class="digger digger-3" src="../Eikones/digging-icon.png" alt="">
+<img src="../Eikones/buldozer.jpg" alt="" class="digger buldozer">
+
+
+<body class=" ergo-body">
+
+    <h2 class="title">Μιλάμε με αποτελέσματα! Υλοποίηση έργων στον δήμο Δίου Ολύμπου.
+    </h2>
+    <p></p>
+    <img src="../Eikones/Olympos.jpg" alt="" class="bakgr">
+    <div class="txt">
+        <table class="table">
+            <caption>Έργα του Δήμου υπό ανάπτυξη.</caption>
+            <thead>
+                <td>Έργο:</td>
+                <td>Προϋπολογισμός:</td>
+                <td>Ανάδοχος:</td>
+            </thead>
+            <tr>
+                <td>Κατασκευή Βιολογικού Καθαρισμού.</td>
+                <td>400.000 €. </td>
+                <td> Α.Ζ Κατασκευαστική.</td>
+            </tr>
+            <tr>
+                <td>Κατασκευή Αγωγού Λυμάτων.</td>
+                <td>270.000 €.</td>
+                <td>Κατασκευαστική Φ.Δ.</td>
+            </tr>
+            <tr>
+                <td>Δειγματικό έργο 4 </td>
+                <td>Δείγμα Δείγμα Δείγμα</td>
+                <td>Κατασκευαστική Δείγμα</td>
+            </tr>
+            <tr>
+                <td>Κατασκευή Αγωγού Λυμάτων.</td>
+                <td>270.000 €.</td>
+                <td>Κατασκευαστική Φ.Δ.</td>
+            </tr>
+            <tr>
+                <td>Δειγματικό έργο 4 </td>
+                <td>Δείγμα Δείγμα Δείγμα</td>
+                <td>Κατασκευαστική Δείγμα</td>
+            </tr>
+            <tr>
+                <td>Κατασκευή Αγωγού Λυμάτων.</td>
+                <td>270.000 €.</td>
+                <td>Κατασκευαστική Φ.Δ. </td>
+            </tr>
+        </table>
+        <div class="ergo-list">
+            <p></p>
+            <h2>Έργα που υλοποιήθηκαν:</h2>
+            <div>
+                <ul>
+                    <li class="lista-ergon">Ασφαλτόστρωση δρόμων.</li>
+                    <li class="lista-ergon">Κατασκευή αερογέφυρας.</li>
+                    <li class="lista-ergon">Αποκομιδή απορριμάτων.</li>
+                    <li class="lista-ergon">Υπόλοιπα έργα του προϋπολογισμού.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

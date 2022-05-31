@@ -1,0 +1,217 @@
+.super-contact-body {
+    background-color: rgb(245, 217, 217);
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.contact-body {
+    font-size: 20px;
+    font-family: 'Calibri';
+    margin-left: 3%;
+    display: block;
+    position: relative;
+}
+
+nav {
+    margin-top: 0.5%;
+}
+
+.contact-form {
+    width: 40%;
+    display: inline;
+    grid-template-columns: repeat(1, 1fr);
+    float: right;
+    top: 15%;
+    left: 47%;
+    text-align: right;
+    position: absolute;
+}
+
+legend {
+    font-size: 28px;
+    font-family: 'Calibri';
+    margin-right: 17rem;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    border: 3px solid #5181e7;
+}
+
+textarea:focus {
+    border: 1px solid #89a6e6;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 16.3rem;
+    background-color: #ffffff;
+    margin-top: 7px;
+}
+
+input,
+textarea {
+    box-shadow: 2px 1px 7px 0 #6f99c9;
+}
+
+.thema {
+    margin-right: 16.2rem;
+}
+
+textarea {
+    font-size: 16px;
+    font-family: 'Calibri', 'Arial';
+    line-height: 1.4;
+    border-radius: 15px;
+    margin-right: 5px;
+    width: 508px;
+    max-height: 160px;
+    margin-bottom: 3px;
+    border: none;
+    resize: none;
+}
+
+#email:hover {
+    color: #83a0e0;
+}
+
+input[type="submit"]:hover {
+    background-color: aqua;
+    transition: 0.6s;
+}
+
+.bottom-bar {
+    background-color: rgb(204, 191, 241);
+    overflow: visible;
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    height: 205px;
+
+}
+
+/* Style the links inside the navigation bar */
+
+.bottom-bar .fa {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #6e8bca;
+    color: white;
+    margin: 10px;
+}
+
+.media-icons {
+    position: absolute;
+    top: 4rem;
+    left: 42rem;
+}
+
+.syndesmoi-titlos {
+    font-size: 22px;
+    float: left;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.footer-links a {
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    float: left;
+    top: 4rem;
+    position: absolute;
+    left: 1.3rem;
+}
+
+#drimos-olympou {
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    float: left;
+    top: 6rem;
+    position: absolute;
+
+}
+
+a span {
+    left: 1.6rem !important;
+}
+
+.epikoinonia-footer h3 {
+    color: #123379;
+    position: absolute;
+    display: block;
+    left: 37rem;
+    margin-top: 1rem;
+}
+
+iframe {
+    margin-top: 1.5%;
+    position: relative;
+    display: block;
+    left: 1%;
+}
+
+.footer-link {
+    left: 17rem;
+    position: absolute;
+    display: inline;
+    top: 4rem;
+}
+
+.designer {
+    font-size: 14px;
+    right: 10rem;
+    position: absolute;
+    display: block;
+    top: 11rem;
+    color: #0d2a69;
+}
+
+.epikoinonia-footer {
+    width: 99.5%;
+    font-size: x-large;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.epikoinonia-footer h3:hover,
+.designer:hover {
+    color: #2c58b8;
+}
+
+textarea:hover {
+    border: 1px solid #838cf0;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover {
+    border: 3px solid #9099eb;
+}
+
+.footer-links a:hover {
+    color: #0e1fb4;
+}
+
+.bottom-bar .fa:hover {
+    opacity: 0.7;
+    transform: translateY(-3px);
+}

@@ -1,0 +1,128 @@
+/* index.html style rules */
+
+#home-body {
+    background: linear-gradient(50deg, #01dd00 36%, #ffff 40%);
+    margin: 0;
+}
+
+.intro {
+    float: right;
+    margin-right: 7%;
+    width: 40%;
+    margin-top: 10%;
+    font-family: 'Calibri';
+    font-size: 25px;
+    font-weight: 400;
+    color: #2d5c5c;
+    position: relative;
+}
+
+nav {
+    margin-top: 0.5%;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 22%;
+    padding: 0;
+    text-align: right;
+    padding-right: 5%;
+    margin-top: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+
+.menu {
+    background-color: #d7e1f0;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:  'Calibri', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(177, 54, 10);
+}
+
+nav a:hover {
+    color: #00ff;
+}
+
+nav a::before {
+    content:'';
+    display: block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+.icons {
+    position:absolute;
+    height: 4rem;
+    width: 4rem;  
+    bottom: 8%;
+    color:rgb(20, 130, 158);
+    opacity: 0.6;
+}
+
+.worker { 
+    right: 40%;
+}
+
+.desk { 
+    right: 20%;
+}
+
+.conference { 
+    right: 30%;
+    width: 5rem !important;
+    height: 5rem !important;
+    bottom:6%;
+}
+
+.speech { 
+    width: 5rem !important;
+    height: 5rem !important;
+    right: 10%;
+    bottom: 7%;
+}
+
+.ikona {
+    height: 75%;
+    width: 36%;
+    float: left; 
+    margin-left: 3%; 
+    margin-top: 2%;
+    position: absolute;
+    display: inline;
+    border: none;
+    box-shadow: 2px 2px 7px 2px #498383;
+}
+.ikona:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 17px 3px #3a7777;
+    transition: all 0.5s ease-in-out;
+}
+
+.logotypo {
+    float: right;
+    margin-left: 90%;
+    margin-top: 2%;
+    position: fixed;
+}
+  /*         ErgoMas style rules      */
+
+.foto-body {
+    background-color: rgba(187, 187, 187, 0.568);
+}
+
